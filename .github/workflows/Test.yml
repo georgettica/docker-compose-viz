@@ -36,6 +36,8 @@ jobs:
 
             -   name: Coding style
                 run: composer run cst
+                env:
+                  PHP_CS_FIXER_IGNORE_ENV: 1
 
             -   name: Build and push Docker images
                 uses: docker/build-push-action@v1
