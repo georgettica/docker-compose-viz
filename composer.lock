@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7b1d9f8ca7b06f7d74d34ffe7343d728",
+    "content-hash": "20e707ec31fff8823f309415903d1e46",
     "packages": [
         {
             "name": "clue/graph",
@@ -1035,23 +1035,24 @@
         },
         {
             "name": "kahlan/kahlan",
-            "version": "5.2.3",
+            "version": "6.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kahlan/kahlan.git",
-                "reference": "076da1c9747da903a510ec80e44f15536d23bacb"
+                "reference": "cf33b09fb4088a6dbeb331c427178c856681da58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kahlan/kahlan/zipball/076da1c9747da903a510ec80e44f15536d23bacb",
-                "reference": "076da1c9747da903a510ec80e44f15536d23bacb",
+                "url": "https://api.github.com/repos/kahlan/kahlan/zipball/cf33b09fb4088a6dbeb331c427178c856681da58",
+                "reference": "cf33b09fb4088a6dbeb331c427178c856681da58",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.1"
+                "php": ">=7.4"
             },
             "require-dev": {
-                "squizlabs/php_codesniffer": "^3.4"
+                "rector/rector": "^2.0",
+                "squizlabs/php_codesniffer": "^3.10.1"
             },
             "bin": [
                 "bin/kahlan"
@@ -1087,9 +1088,9 @@
             ],
             "support": {
                 "issues": "https://github.com/kahlan/kahlan/issues",
-                "source": "https://github.com/kahlan/kahlan/tree/5.2.3"
+                "source": "https://github.com/kahlan/kahlan/tree/6.0.0"
             },
-            "time": "2023-03-11T12:11:07+00:00"
+            "time": "2024-12-26T13:27:39+00:00"
         },
         {
             "name": "php-cs-fixer/diff",
@@ -2247,5 +2248,5 @@
         "php": "^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
